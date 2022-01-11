@@ -1,0 +1,17 @@
+.countryList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: space-between;
+    list-style: none;
+}
+@media screen and (max-width:830px) {
+    .countryList{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:600px) {
+    .countryList{
+        justify-content: center;
+    }
+}

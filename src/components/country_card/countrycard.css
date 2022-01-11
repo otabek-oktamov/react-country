@@ -1,0 +1,30 @@
+.countryCard{
+    max-width: 264px;
+    background-color: #fff;
+    margin-bottom: 75px;
+    border-radius: 5px;
+    color: #111517;
+}
+.countryCard div{
+    padding: 24px;
+}
+.countryCardList{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: #111517;
+}
+.countryCard h2{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.countryCardItem{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.countryCardItem span{
+    font-weight: 300;
+}

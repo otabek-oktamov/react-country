@@ -1,0 +1,124 @@
+.singlePageLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.btnBack{
+    text-decoration: none;
+    color: #111517;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    max-width: 136px;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.fa-arrow-left{
+    margin-right: 10px;
+}
+.singlePageLeft img{
+    border-radius: 10px;
+}
+.singlePageContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.singlePageList{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 68px;
+    list-style: none;
+}
+.singlePageRight h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 23px;
+}
+.singlePageItem:not(:last-child){
+    margin-right: 141px;
+}
+.singlePageInnerList{
+   list-style: none;
+}
+.innerItem{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.innerItem span{
+    font-weight: 300;
+}
+b{
+font-weight: 600;
+}
+.borderCountries{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.borderCountry{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 27px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .singlePageLeft img{
+        width: 500px;
+        height: auto;
+    }
+    .singlePageItem:not(:last-child){
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:1000px){
+   .singlePageContainer{
+       flex-direction: column;
+       align-items: flex-start;
+        justify-content: center;
+   }
+   .singlePageLeft img{
+       margin-bottom: 44px;
+      
+   }
+}
+@media screen and (max-width:600px){
+    .singlePageContainer{
+        flex-direction: column;
+
+    }
+    .singlePageLeft img{
+
+        width: 320px;
+       
+    }
+    .singlePageList{
+        flex-direction: column;
+    }
+    .singlePageRight{
+        display: flex;
+        flex-direction: column;
+    }
+    .borderCountries{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .borderCountry{
+        margin-bottom: 20px;
+    }
+ }
